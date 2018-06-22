@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		07E5010A20CABF0000EDBFB7 /* carthage-playground-aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 07E5010D20CABF0000EDBFB7 /* Build configuration list for PBXAggregateTarget "carthage-playground-aggregate" */;
+			buildPhases = (
+				07E5010E20CABF0D00EDBFB7 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "carthage-playground-aggregate";
+			productName = "carthage-playground-aggregate";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		071C808F20DD3934000AD459 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		075D580A20DD2D86008CCE22 /* copy-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "copy-frameworks.sh"; sourceTree = "<group>"; };
+		07E5010920CABDBA00EDBFB7 /* carthage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = carthage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		07E5010F20CAC07D00EDBFB7 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		07E5011020CAC07D00EDBFB7 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07E5010220CABD1000EDBFB7 = {
+			isa = PBXGroup;
+			children = (
+				07E5010920CABDBA00EDBFB7 /* carthage.playground */,
+				071C808F20DD3934000AD459 /* README.md */,
+				07E5010F20CAC07D00EDBFB7 /* Cartfile */,
+				07E5011020CAC07D00EDBFB7 /* Cartfile.resolved */,
+				075D580A20DD2D86008CCE22 /* copy-frameworks.sh */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		07E5010320CABD1000EDBFB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					07E5010A20CABF0000EDBFB7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 07E5010620CABD1000EDBFB7 /* Build configuration list for PBXProject "carthage-playground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07E5010220CABD1000EDBFB7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E5010A20CABF0000EDBFB7 /* carthage-playground-aggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E5010E20CABF0D00EDBFB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$SRCROOT/copy-frameworks.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07E5010720CABD1000EDBFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		07E5010820CABD1000EDBFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		07E5010B20CABF0000EDBFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKS358BH88;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07E5010C20CABF0000EDBFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKS358BH88;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E5010620CABD1000EDBFB7 /* Build configuration list for PBXProject "carthage-playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E5010720CABD1000EDBFB7 /* Debug */,
+				07E5010820CABD1000EDBFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E5010D20CABF0000EDBFB7 /* Build configuration list for PBXAggregateTarget "carthage-playground-aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E5010B20CABF0000EDBFB7 /* Debug */,
+				07E5010C20CABF0000EDBFB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E5010320CABD1000EDBFB7 /* Project object */;
+}
