@@ -18,3 +18,5 @@ https://stackoverflow.com/a/45391022/584548
 You should now be able to use `carthage.playground` with the copied Carthage frameworks.
 
 > ❗️Notice: frameworks are not ignored in the `.gitignore` file. They are pushed to the repo by default. [Charts](https://github.com/danielgindi/Charts) is included as an example.
+
+![Charts Example](https://raw.githubusercontent.com/backslash-f/carthage-playground/master/charts-example.png)
