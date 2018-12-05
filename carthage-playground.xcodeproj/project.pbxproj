@@ -24,7 +24,7 @@
 		071C808F20DD3934000AD459 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		075D580A20DD2D86008CCE22 /* copy-frameworks.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "copy-frameworks.sh"; sourceTree = "<group>"; };
 		07E5010920CABDBA00EDBFB7 /* carthage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = carthage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		07E5010F20CAC07D00EDBFB7 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		07E5010F20CAC07D00EDBFB7 /* Cartfile.private */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		07E5011020CAC07D00EDBFB7 /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,7 +34,7 @@
 			children = (
 				07E5010920CABDBA00EDBFB7 /* carthage.playground */,
 				071C808F20DD3934000AD459 /* README.md */,
-				07E5010F20CAC07D00EDBFB7 /* Cartfile */,
+				07E5010F20CAC07D00EDBFB7 /* Cartfile.private */,
 				07E5011020CAC07D00EDBFB7 /* Cartfile.resolved */,
 				075D580A20DD2D86008CCE22 /* copy-frameworks.sh */,
 			);
